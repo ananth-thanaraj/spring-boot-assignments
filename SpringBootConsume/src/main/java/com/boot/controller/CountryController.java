@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @RequestMapping("/rest")
 public class CountryController {
 
-	@JsonProperty
+	
 	private RestTemplate restTemplate;
 
 	public CountryController(RestTemplate restTemplate) {
